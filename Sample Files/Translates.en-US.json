@@ -1,0 +1,48 @@
+[
+    {
+        "TranslateLabel": "ANA_SAYFA_LABEL_1",
+        "TranslateValue": "{0} likes to read {1} stories. You can see him he reading the book {2} most of the time."
+    }, {
+        "TranslateLabel": "ANA_SAYFA_LABEL_2",
+        "TranslateValue": "Name of that: 2 LABEL"
+    }, {
+        "TranslateLabel": "ANA_SAYFA_LABEL_3",
+        "TranslateValue": "Name of that: 3 LABEL"
+    }, {
+        "TranslateLabel": "ANA_SAYFA_LABEL_4",
+        "TranslateValue": "Name of that: 4 LABEL"
+    }, {
+        "TranslateLabel": "ANA_SAYFA_LABEL_5",
+        "TranslateValue": "Name of that: 5 LABEL"
+    }, {
+        "TranslateLabel": "ANA_SAYFA_LABEL_6",
+        "TranslateValue": "Name of that: 6 LABEL"
+    }, {
+        "TranslateLabel": "ANA_SAYFA_LABEL_7",
+        "TranslateValue": "Name of that: 7 LABEL"
+    }, {
+        "TranslateLabel": "ANA_SAYFA_LABEL_8",
+        "TranslateValue": "Name of that: 8 LABEL"
+    }, {
+        "TranslateLabel": "ANA_SAYFA_LABEL_9",
+        "TranslateValue": "Name of that: 9 LABEL"
+    }, {
+        "TranslateLabel": "ANA_SAYFA_LABEL_10",
+        "TranslateValue": "Name of that: 10 LABEL"
+    }, {
+        "TranslateLabel": "ANA_SAYFA_LABEL_11",
+        "TranslateValue": "Name of that: 11 LABEL"
+    }, {
+        "TranslateLabel": "ANA_SAYFA_LABEL_12",
+        "TranslateValue": "Name of that: 12 LABEL"
+    }, {
+        "TranslateLabel": "ANA_SAYFA_LABEL_13",
+        "TranslateValue": "Name of that: 13 LABEL"
+    }, {
+        "TranslateLabel": "ANA_SAYFA_LABEL_14",
+        "TranslateValue": "Name of that: 14 LABEL"
+    }, {
+        "TranslateLabel": "ANA_SAYFA_LABEL_15",
+        "TranslateValue": "Name of that: 15 LABEL"
+    }
+]

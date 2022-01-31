@@ -1,0 +1,48 @@
+[
+    {
+        "TranslateLabel": "ANA_SAYFA_LABEL_1",
+        "TranslateValue": "{0} любит читать {1} истории. Вы можете увидеть его он читает книгу {2} в большую часть времени."
+    }, {
+        "TranslateLabel": "ANA_SAYFA_LABEL_2",
+        "TranslateValue": "Имя этого: 2 Этикетка"
+    }, {
+        "TranslateLabel": "ANA_SAYFA_LABEL_3",
+        "TranslateValue": "Имя этого: 3 Этикетка"
+    }, {
+        "TranslateLabel": "ANA_SAYFA_LABEL_4",
+        "TranslateValue": "Имя этого: 4 Этикетка"
+    }, {
+        "TranslateLabel": "ANA_SAYFA_LABEL_5",
+        "TranslateValue": "Имя этого: 5 Этикетка"
+    }, {
+        "TranslateLabel": "ANA_SAYFA_LABEL_6",
+        "TranslateValue": "Имя этого: 6 Этикетка"
+    }, {
+        "TranslateLabel": "ANA_SAYFA_LABEL_7",
+        "TranslateValue": "Имя этого: 7 Этикетка"
+    }, {
+        "TranslateLabel": "ANA_SAYFA_LABEL_8",
+        "TranslateValue": "Имя этого: 8 Этикетка"
+    }, {
+        "TranslateLabel": "ANA_SAYFA_LABEL_9",
+        "TranslateValue": "Имя этого: 9 Этикетка"
+    }, {
+        "TranslateLabel": "ANA_SAYFA_LABEL_10",
+        "TranslateValue": "Имя этого: 10 Этикетка"
+    }, {
+        "TranslateLabel": "ANA_SAYFA_LABEL_11",
+        "TranslateValue": "Имя этого: 11 Этикетка"
+    }, {
+        "TranslateLabel": "ANA_SAYFA_LABEL_12",
+        "TranslateValue": "Имя этого: 12 Этикетка"
+    }, {
+        "TranslateLabel": "ANA_SAYFA_LABEL_13",
+        "TranslateValue": "Имя этого: 13 Этикетка"
+    }, {
+        "TranslateLabel": "ANA_SAYFA_LABEL_14",
+        "TranslateValue": "Имя этого: 14 Этикетка"
+    }, {
+        "TranslateLabel": "ANA_SAYFA_LABEL_15",
+        "TranslateValue": "Имя этого: 15 Этикетка"
+    }
+]
