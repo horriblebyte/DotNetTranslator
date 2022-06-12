@@ -1,5 +1,5 @@
 ﻿
-namespace DotNetTranslator {
+namespace SampleMultiLanguageApp.Forms {
     partial class FrmTest {
         /// <summary>
         /// Required designer variable.

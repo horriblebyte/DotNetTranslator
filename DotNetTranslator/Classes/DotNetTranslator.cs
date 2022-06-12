@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 using Newtonsoft.Json;
 
-public static class Translation {
+public static class DotNetTranslator {
 
     #region Static Variables
 

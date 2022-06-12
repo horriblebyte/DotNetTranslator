@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace DotNetTranslator {
+using SampleMultiLanguageApp.Forms;
+
+namespace SampleMultiLanguageApp {
     static class Program {
         /// <summary>
         /// The main entry point for the application.
@@ -21,19 +23,19 @@ namespace DotNetTranslator {
             try {
 
                 //Dilleri hazırlıyor.
-                Translation.PrepareLanguages();
+                DotNetTranslator.PrepareLanguages();
 
                 //Dilleri sakladığımız değişken boş mu dolu mu kontrol ediyor (%localappdata%/DotNetTranslator).
                 if (!string.IsNullOrEmpty(Properties.Settings.Default.CurrentLanguage)) {
                     //Boş değilse, çevirileri hazırlıyor.
-                    Translation.PrepareTranslates(Properties.Settings.Default.CurrentLanguage);
+                    DotNetTranslator.PrepareTranslates(Properties.Settings.Default.CurrentLanguage);
                 } else {
                     //Boş ise, dil seçimi formunu açıyor.
                     using (FrmLanguageSelector frmLanguageSelector = new FrmLanguageSelector()) {
                         if (frmLanguageSelector.ShowDialog() == DialogResult.OK && frmLanguageSelector.languageCode != "") {
 
                             //Seçilen kod ile çevirileri istiyoruz.
-                            Translation.PrepareTranslates(frmLanguageSelector.languageCode);
+                            DotNetTranslator.PrepareTranslates(frmLanguageSelector.languageCode);
 
                             //Hangi dili seçtiğimizi daha sonra hatırlayabilmek için config'e (%localappdata%/DotNetTranslator) kaydediyoruz.
                             Properties.Settings.Default.CurrentLanguage = frmLanguageSelector.languageCode;

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace DotNetTranslator {
+namespace SampleMultiLanguageApp.Forms {
     public partial class FrmTest : Form {
 
         public FrmTest() {
@@ -9,7 +9,7 @@ namespace DotNetTranslator {
 
             try {
                 CmbLanguages.ValueMember = "LanguageCode";
-                CmbLanguages.DataSource = Translation.Languages;
+                CmbLanguages.DataSource = DotNetTranslator.Languages;
             } catch (Exception ex) {
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -27,7 +27,7 @@ namespace DotNetTranslator {
                     Properties.Settings.Default.Save();
 
                     //Seçtiğimiz dil ile uyuşan çevirileri talep ediyoruz.
-                    Translation.PrepareTranslates(Properties.Settings.Default.CurrentLanguage);
+                    DotNetTranslator.PrepareTranslates(Properties.Settings.Default.CurrentLanguage);
 
                     //Component'leri çeviriyoruz.
                     SetLanguage();
@@ -46,21 +46,21 @@ namespace DotNetTranslator {
         /// </summary>
         private void SetLanguage() {
             try {
-                label1.Text = Translation.GetTranslatedString("ANA_SAYFA_LABEL_1", "Mutlu", "FANTASTİK", "YÜZÜKLERİN EFENDİSİ");
-                label2.Text = Translation.GetTranslatedString("ANA_SAYFA_LABEL_2");
-                label3.Text = Translation.GetTranslatedString("ANA_SAYFA_LABEL_3");
-                label4.Text = Translation.GetTranslatedString("ANA_SAYFA_LABEL_4");
-                label5.Text = Translation.GetTranslatedString("ANA_SAYFA_LABEL_5", "test", "sadasd", "tester", 33, 44, 55);
-                label6.Text = Translation.GetTranslatedString("ANA_SAYFA_LABEL_6");
-                label7.Text = Translation.GetTranslatedString("ANA_SAYFA_LABEL_7");
-                label8.Text = Translation.GetTranslatedString("ANA_SAYFA_LABEL_8");
-                label9.Text = Translation.GetTranslatedString("ANA_SAYFA_LABEL_9");
-                label10.Text = Translation.GetTranslatedString("ANA_SAYFA_LABEL_10");
-                label11.Text = Translation.GetTranslatedString("ANA_SAYFA_LABEL_11");
-                label12.Text = Translation.GetTranslatedString("ANA_SAYFA_LABEL_12");
-                label13.Text = Translation.GetTranslatedString("ANA_SAYFA_LABEL_13");
-                label14.Text = Translation.GetTranslatedString("ANA_SAYFA_LABEL_14");
-                label15.Text = Translation.GetTranslatedString("ANA_SAYFA_LABEL_15");
+                label1.Text = DotNetTranslator.GetTranslatedString("ANA_SAYFA_LABEL_1", "Mutlu", "FANTASTİK", "YÜZÜKLERİN EFENDİSİ");
+                label2.Text = DotNetTranslator.GetTranslatedString("ANA_SAYFA_LABEL_2");
+                label3.Text = DotNetTranslator.GetTranslatedString("ANA_SAYFA_LABEL_3");
+                label4.Text = DotNetTranslator.GetTranslatedString("ANA_SAYFA_LABEL_4");
+                label5.Text = DotNetTranslator.GetTranslatedString("ANA_SAYFA_LABEL_5", "test", "sadasd", "tester", 33, 44, 55);
+                label6.Text = DotNetTranslator.GetTranslatedString("ANA_SAYFA_LABEL_6");
+                label7.Text = DotNetTranslator.GetTranslatedString("ANA_SAYFA_LABEL_7");
+                label8.Text = DotNetTranslator.GetTranslatedString("ANA_SAYFA_LABEL_8");
+                label9.Text = DotNetTranslator.GetTranslatedString("ANA_SAYFA_LABEL_9");
+                label10.Text = DotNetTranslator.GetTranslatedString("ANA_SAYFA_LABEL_10");
+                label11.Text = DotNetTranslator.GetTranslatedString("ANA_SAYFA_LABEL_11");
+                label12.Text = DotNetTranslator.GetTranslatedString("ANA_SAYFA_LABEL_12");
+                label13.Text = DotNetTranslator.GetTranslatedString("ANA_SAYFA_LABEL_13");
+                label14.Text = DotNetTranslator.GetTranslatedString("ANA_SAYFA_LABEL_14");
+                label15.Text = DotNetTranslator.GetTranslatedString("ANA_SAYFA_LABEL_15");
             } catch (Exception ex) {
                 MessageBox.Show(ex.Message, "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }

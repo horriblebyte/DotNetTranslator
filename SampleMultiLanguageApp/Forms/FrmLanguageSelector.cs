@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace DotNetTranslator {
+namespace SampleMultiLanguageApp.Forms {
     public partial class FrmLanguageSelector : Form {
 
         public string languageCode = string.Empty;
@@ -11,7 +11,7 @@ namespace DotNetTranslator {
 
             try {
                 CmbLanguages.ValueMember = "LanguageCode";
-                CmbLanguages.DataSource = Translation.Languages;
+                CmbLanguages.DataSource = DotNetTranslator.Languages;
             } catch (Exception ex) {
                 MessageBox.Show(ex.Message, "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
